@@ -3,7 +3,11 @@ FROM scratch AS ctx
 COPY build_files /
 COPY system_files /system_files
 
+
+
 # Base Image
+FROM quay.io/fedora/fedora-bootc:44
+
 # FROM ghcr.io/ublue-os/bazzite:stable@sha256:9556db65991d57a03a7dc18e4ba28a686d8bcdcd6b61235aa69c8267bb22ff76
 ## Other possible base images include:
 # FROM ghcr.io/ublue-os/bazzite:testing
@@ -12,7 +16,7 @@ COPY system_files /system_files
 # 
 # ... and so on, here are more base images
 # Universal Blue Images: https://github.com/orgs/ublue-os/packages
-Fedora base image: quay.io/fedora/fedora-bootc:44
+# Fedora base image: quay.io/fedora/fedora-bootc:44
 # CentOS base images: quay.io/centos-bootc/centos-bootc:stream10
 
 ### [IM]MUTABLE /opt
