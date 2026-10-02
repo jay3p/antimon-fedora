@@ -36,10 +36,13 @@ dnf5 remove -y \
 dnf5 install -y \
   hyprland \
   xdg-desktop-portal \
+  sddm \
+  sddm-wayland-generic \
   hyprlock \
   hypridle \
   hyprpaper \
   hyprland-guiutils \
+  hyprsunset \
   nix-core \
   nix-doc \
   nix-daemon \
