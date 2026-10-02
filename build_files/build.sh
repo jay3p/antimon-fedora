@@ -30,8 +30,8 @@ cp -avf "/ctx/system_files"/. /
 dnf5 -y copr enable craftidore/wayblueorg-hyprland
 
 dnf5 remove -y \
-  intel-vaapi-driver \ 
-vim
+  intel-vaapi-driver \
+  vim
 
 dnf5 install -y \
   hyprland \
@@ -40,6 +40,11 @@ dnf5 install -y \
   hypridle \
   hyprpaper \
   hyprland-guiutils \
+  nix-core \
+  nix-doc \
+  nix-daemon \
+  nix-system \
+  nix-filesystem \
   neovim \
   zsh \
   btop
