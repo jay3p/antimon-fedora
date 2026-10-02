@@ -6,7 +6,7 @@ COPY system_files /system_files
 
 
 # Base Image
-FROM quay.io/fedora/fedora-bootc:44
+FROM ghcr.io/wayblueorg/hyprland:latest
 
 # FROM ghcr.io/ublue-os/bazzite:stable@sha256:9556db65991d57a03a7dc18e4ba28a686d8bcdcd6b61235aa69c8267bb22ff76
 ## Other possible base images include:
