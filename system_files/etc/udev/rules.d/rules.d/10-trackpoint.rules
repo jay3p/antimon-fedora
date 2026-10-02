@@ -1,0 +1,1 @@
+ACTION=="add|change", SUBSYSTEM=="serio", KERNEL=="serio1", ATTR{sensitivity}=="*", ATTR{sensitivity}="0"
