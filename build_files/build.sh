@@ -50,6 +50,7 @@ dnf5 install -y \
   nix-filesystem \
   neovim \
   zsh \
-  btop
+  btop \
+  tealdeer
 
 systemctl enable podman.socket
