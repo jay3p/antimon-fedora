@@ -57,3 +57,4 @@ dnf5 install -y \
   dolphin
 
 systemctl enable podman.socket
+systemctl enable sddm.service
