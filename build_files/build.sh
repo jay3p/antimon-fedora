@@ -44,10 +44,8 @@ dnf5 install -y \
   hyprland-guiutils \
   hyprsunset \
   nix-core \
-  nix-doc \
   nix-daemon \
-  nix-system \
-  nix-filesystem \
+  nix-doc \
   neovim \
   zsh \
   btop \
@@ -55,6 +53,7 @@ dnf5 install -y \
   intel-one-mono-fonts \
   jetbrains-mono-fonts \
   wev \
-  quickshell
+  quickshell \
+  dolphin
 
 systemctl enable podman.socket
