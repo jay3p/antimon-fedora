@@ -38,7 +38,13 @@ dnf5 install -y \
   xdg-desktop-portal \
   sddm \
   sddm-wayland-generic \
-  hyprlock \
+  sddm-themes \
+  qt5-qtgraphicaleffects \
+  qt5-qtquickcontrols2 \
+  qt5-qtsvg \
+  kwallet \
+  pam-kwalle
+hyprlock \
   hypridle \
   hyprpaper \
   hyprland-guiutils \
