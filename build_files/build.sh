@@ -51,6 +51,10 @@ dnf5 install -y \
   neovim \
   zsh \
   btop \
-  tealdeer
+  tealdeer \
+  intel-one-mono-fonts \
+  jetbrains-mono-fonts \
+  wev \
+  quickshell
 
 systemctl enable podman.socket
