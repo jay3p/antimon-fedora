@@ -43,7 +43,7 @@ dnf5 install -y \
   qt5-qtquickcontrols2 \
   qt5-qtsvg \
   kwallet \
-  pam-kwalle \
+  pam-kwallet \
   hyprlock \
   hypridle \
   hyprpaper \
@@ -61,7 +61,11 @@ dnf5 install -y \
   wev \
   quickshell \
   dolphin \
-  kde-connect
+  kde-connect \
+  qt5ct \
+  qt6ct \
+  plasma-breeze \
+  breeze-gtk
 
 systemctl enable podman.socket
 systemctl enable sddm.service
