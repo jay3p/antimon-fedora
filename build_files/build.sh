@@ -67,7 +67,7 @@ dnf5 install -y \
   plasma-breeze \
   breeze-gtk \
   fastfetch \
-  dex
+  dex-autostart
 
 systemctl enable podman.socket
 systemctl enable sddm.service
