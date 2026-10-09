@@ -43,8 +43,8 @@ dnf5 install -y \
   qt5-qtquickcontrols2 \
   qt5-qtsvg \
   kwallet \
-  pam-kwalle
-hyprlock \
+  pam-kwalle \
+  hyprlock \
   hypridle \
   hyprpaper \
   hyprland-guiutils \
@@ -60,7 +60,8 @@ hyprlock \
   jetbrains-mono-fonts \
   wev \
   quickshell \
-  dolphin
+  dolphin \
+  kde-connect
 
 systemctl enable podman.socket
 systemctl enable sddm.service
