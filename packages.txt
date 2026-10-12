@@ -1,0 +1,46 @@
+# Basic hyprland packages, compositor and desktop manager related packages
+hyprland
+xdg-desktop-portal
+sddm
+sddm-wayland-generic
+sddm-themes
+kwallet
+pam-kwallet
+
+# Further hyprland related packages
+hyprlock
+hypridle
+hyprpaper
+hyprland-guiutils
+hyprsunset
+
+# Plasma and QT related packages
+qt5-qtgraphicaleffects
+qt5-qtquickcontrols2
+qt5-qtsvg
+qt5ct
+qt6ct
+plasma-breeze
+breeze-gtk
+
+# Nix relatex packages
+nix-core
+nix-daemon
+nix-doc
+
+# Fonts
+intel-one-mono-fonts
+jetbrains-mono-fonts
+
+# Basic desktop environment tools
+dolphin
+quickshell
+
+# Other tools
+neovim
+zsh
+btop
+tealdeer
+wev
+kde-connect
+fastfetch

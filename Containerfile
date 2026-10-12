@@ -2,7 +2,7 @@
 FROM scratch AS ctx
 COPY build_files /
 COPY system_files /system_files
-
+COPY --chmod=644 packages.txt /
 
 
 # Base Image

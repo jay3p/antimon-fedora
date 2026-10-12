@@ -33,41 +33,9 @@ dnf5 remove -y \
   intel-vaapi-driver \
   vim
 
-dnf5 install -y \
-  hyprland \
-  xdg-desktop-portal \
-  sddm \
-  sddm-wayland-generic \
-  sddm-themes \
-  qt5-qtgraphicaleffects \
-  qt5-qtquickcontrols2 \
-  qt5-qtsvg \
-  kwallet \
-  pam-kwallet \
-  hyprlock \
-  hypridle \
-  hyprpaper \
-  hyprland-guiutils \
-  hyprsunset \
-  nix-core \
-  nix-daemon \
-  nix-doc \
-  neovim \
-  zsh \
-  btop \
-  tealdeer \
-  intel-one-mono-fonts \
-  jetbrains-mono-fonts \
-  wev \
-  quickshell \
-  dolphin \
-  kde-connect \
-  qt5ct \
-  qt6ct \
-  plasma-breeze \
-  breeze-gtk \
-  fastfetch \
-  dex-autostart
+grep -Ev '^[[:space:]]*(#|$)' < /ctx/packages.txt | xargs -r \
+  dnf5 install -y
+
 
 systemctl enable podman.socket
 systemctl enable sddm.service
