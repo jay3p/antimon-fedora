@@ -1,6 +1,8 @@
 # Basic hyprland packages, compositor and desktop manager related packages
 hyprland
 xdg-desktop-portal
+xdg-desktop-portal-hyprland
+xdg-desktop-portal-kde
 sddm
 sddm-wayland-generic
 sddm-themes
@@ -44,3 +46,4 @@ tealdeer
 wev
 kde-connect
 fastfetch
+syncthing
