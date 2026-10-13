@@ -6,6 +6,7 @@ xdg-desktop-portal-kde
 sddm
 sddm-wayland-generic
 sddm-themes
+hyprpolkitagent
 kwallet
 pam-kwallet
 
@@ -15,6 +16,11 @@ hypridle
 hyprpaper
 hyprland-guiutils
 hyprsunset
+hyprcursor
+hyprland-qt-support
+hyprpicker
+hyprqt6engine
+
 
 # Plasma and QT related packages
 qt5-qtgraphicaleffects
@@ -39,11 +45,9 @@ dolphin
 quickshell
 
 # Other tools
+restic
+rclone
 neovim
 zsh
-btop
-tealdeer
-wev
+fish
 kde-connect
-fastfetch
-syncthing
