@@ -31,11 +31,10 @@ dnf5 -y copr enable craftidore/wayblueorg-hyprland
 
 dnf5 remove -y \
   intel-vaapi-driver \
-  vim
+  vim-minimal
 
-grep -Ev '^[[:space:]]*(#|$)' < /ctx/packages.txt | xargs -r \
+grep -Ev '^[[:space:]]*(#|$)' </ctx/packages.txt | xargs -r \
   dnf5 install -y
-
 
 systemctl enable podman.socket
 systemctl enable sddm.service
