@@ -38,3 +38,4 @@ grep -Ev '^[[:space:]]*(#|$)' </ctx/packages.txt | xargs -r \
 
 systemctl enable podman.socket
 systemctl enable sddm.service
+systemctl enable sddm-boot.service

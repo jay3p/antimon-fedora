@@ -3,10 +3,10 @@ hyprland
 xdg-desktop-portal
 xdg-desktop-portal-hyprland
 xdg-desktop-portal-kde
-#sddm-wayland-generic
+sddm-wayland-generic
 sddm
 sddm-themes
-sddm-x11
+#sddm-x11
 sddm-breeze
 hyprpolkitagent
 kwallet
