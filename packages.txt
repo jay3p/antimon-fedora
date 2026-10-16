@@ -39,6 +39,7 @@ nix-daemon
 nix-doc
 
 # Fonts
+ibm-plex-fonts-all
 intel-one-mono-fonts
 jetbrains-mono-fonts
 
