@@ -36,6 +36,11 @@ dnf5 remove -y \
 grep -Ev '^[[:space:]]*(#|$)' </ctx/packages.txt | xargs -r \
   dnf5 install -y
 
+# Set ownership and security context for policies
+chown root:root system_files/usr/share/polkit-1/actions/com.bitwarden.Bitwarden.policy
+chcon system_u:object_r:usr_t:s0 /usr/share/polkit-1/actions/com.bitwarden.Bitwarden.policy
+
+# Enable services
 systemctl enable podman.socket
 systemctl enable sddm.service
 systemctl enable sddm-boot.service
