@@ -56,3 +56,4 @@ fish
 kde-connect
 gdb
 NetworkManager-openvpn
+plasma-discover
