@@ -57,3 +57,4 @@ kde-connect
 gdb
 NetworkManager-openvpn
 plasma-discover
+java-25-openjdk
